@@ -1,0 +1,96 @@
+.faq-title {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.faq-description {
+    padding-left: 15px;
+}
+
+.faq-group {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.faq-group-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: #f39b88;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: #f8f3eb;
+}
+
+.faq-question-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
+
+.faq-question-item {
+}
+
+.faq-question-text {
+    font-size: 22px;
+    color: #121212;
+    padding-left: 15px;
+}
+
+.faq-icon-open {
+    transition: transform 0.3s ease;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M4 12H20M12 4V20' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    flex-shrink: 0;
+    padding-right: 31px;
+}
+
+.faq-icon-close {
+    transition: transform 0.3s ease;
+    width: 16px;
+    height: 16px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M4 12L20 12' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    flex-shrink: 0;
+    padding-right: 31px;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition:
+            max-height 0.3s ease,
+            padding 0.3s ease;
+    padding: 0 15px;
+}
+
+.faq-answer.open {
+    max-height: 1500px;
+    padding: 10px 15px;
+}
+
+.faq-question-container.open .faq-icon-open {
+    display: none;
+}
+
+.faq-question-container .faq-icon-close {
+    display: none;
+}
+
+.faq-question-container.open .faq-icon-close {
+    display: inline-block;
+}

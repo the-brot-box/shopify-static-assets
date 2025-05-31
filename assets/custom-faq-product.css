@@ -94,3 +94,7 @@
 .faq-question-container.open .faq-icon-close {
     display: inline-block;
 }
+
+.faq-test-class-1 {
+    display: none;
+}

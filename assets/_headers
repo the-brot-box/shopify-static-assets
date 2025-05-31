@@ -1,0 +1,11 @@
+/custom-faq.css
+  Cache-Control: no-cache
+
+/custom-faq.js
+  Cache-Control: no-cache
+
+/custom-faq-product.css
+  Cache-Control: no-cache
+    
+/custom-faq-product.js
+  Cache-Control: no-cache

@@ -40,8 +40,8 @@
 }
 
 .faq-question-text {
-    font-size: 22px;
-    color: #121212;
+    font-size: 14px;
+    color: #676767;
     padding-left: 15px;
 }
 
@@ -93,4 +93,8 @@
 
 .faq-question-container.open .faq-icon-close {
     display: inline-block;
+}
+
+.faq-test-class-1 {
+    display: none;
 }
